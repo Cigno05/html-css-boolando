@@ -24,14 +24,18 @@ ol {
 /* LAYOUT */
 
 .container {
-    max-width: 1024;
+    max-width: 1024px;
     margin: 0 auto;
+    padding: 12px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    
 }
+
+
 
 /* Column size */
 
@@ -73,6 +77,76 @@ ol {
 }
 
 
+/* STYLE */
+
+/* header */
+
+header {
+    
+    color: white;
+    position: relative;
+}
+
+.page-header {
+    background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.page-header .row {
+    justify-content: space-between;
+    max-height: 30px;
+    align-items: center;
+}
+
+/* Main */
+
+main {
+    padding-top: 80px;
+}
+
+/* CARD */
+
+.card {
+    position: relative;
+    
+}
+
+.product :is(.card-photo, .card-description) {
+    padding: 10px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+.card-heart {
+    position: absolute;
+    font-size: 30px;
+    top: 4px;
+    left: 10px;
+}
+
+.price-product {
+    color: red;
+    font-weight: bold;
+}
+
+.price-old {
+    color: black;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+
+
 
 
 
@@ -88,7 +162,7 @@ ol {
     border: 2px solid red;
 }
 
-.debug .col {
+.debug [class^="col"] {
     border: 2px solid green;
 }
 
