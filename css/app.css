@@ -87,18 +87,32 @@ header {
     position: relative;
 }
 
+.navigation {
+    background-color: #FF6900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 998;
+}
+
 .page-header {
     background-color: #FF6900;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 999;
 
 }
 .page-header .row {
     justify-content: space-between;
     max-height: 30px;
     align-items: center;
+}
+
+.logo img {
+    max-height: 20px;
 }
 
 /* Main */
@@ -120,18 +134,38 @@ main {
 
 .card-badge {
     position: absolute;
-    top: 20px;
-    right: 5px;
-    width: 40px;
-    height: 40px;
-    background-color: white;
+    padding: 0 12px;
+    width: auto;
+    height: auto;
+    bottom: 100px;
+    left: 0;
 }
 
 .card-heart {
+    background: white;
+    font-size: 25px;
+    z-index: 5;
     position: absolute;
-    font-size: 30px;
-    top: 4px;
-    left: 10px;
+    top: 20px;
+    right: 10px;
+    padding: 5px 10px;
+    
+}
+
+[class^="card-discount"] {
+    background: red;
+    color: white;
+    z-index: 5;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.card-eco {
+    background-color: green;
+    color: white;
+    z-index: 5;
+    padding: 5px;
+    left: 50px;
 }
 
 .price-product {
@@ -144,6 +178,8 @@ main {
     font-weight: lighter;
     text-decoration: line-through;
 }
+
+
 
 
 
