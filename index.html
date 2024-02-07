@@ -16,19 +16,19 @@
         <nav class="navigation">
             <nav class="container page-header">
                 <div class="row nav">
-                    <div class="col gender">
-                        <a href="#">Uomo</a>
-                        <a href="#">Donna</a>
-                        <a href="#">Bambino</a>
-                    </div>
+                    <ul class="col gender flex gap-5">
+                        <li><a href="#">Uomo</a></li>
+                        <li><a href="#">Donna</a></li>
+                        <li><a href="#">Bambino</a></li>
+                    </ul>
                     <div class="col logo">
                         <img src="./img/boolean-logo.png" alt="logo boolean">
                     </div>
-                    <div class="col profile-app">
-                        <a href="#">P</a>
-                        <a href="#">H</a>
-                        <a href="#">C</a>
-                    </div>
+                    <ul class="col profile-app flex gap-5">
+                        <li><a href="#">P</a></li>
+                        <li><a href="#">H</a></li>
+                        <li><a href="#">C</a></li>
+                    </ul>
                 </div>
             </nav>
         </nav>
@@ -43,12 +43,15 @@
                             <div class="card-overlay">
                                 <img src="./img/1.webp" alt="">
                                 <div class="overlay">
-                                    <img class="change-photo" src="./img/1b.webp" alt="">
+                                    <img src="./img/1b.webp" alt="">
                                 </div>
                             </div>
                             <div class="card-heart">
                                     &hearts;
-                                </div>
+                                    <div class="overlay-heart">
+                                        &hearts;
+                                    </div>
+                            </div>
                                 
                             <div class="card-badge">
                                 <span class="card-discount">
@@ -71,44 +74,19 @@
                 <div class="col-4">
                     <div class="card">
                         <div class="card-photo">
-                                <div class="card-overlay">
-                                    <img src="./img/2.webp" alt="">
-                                    <div class="overlay">
-                                        <img class="change-photo" src="./img/2b.webp" alt="">
-                                    </div>
+                            <div class="card-overlay">
+                                <img src="./img/2.webp" alt="">
+                                <div class="overlay">
+                                    <img src="./img/2b.webp" alt="">
                                 </div>
+                            </div>
                             <div class="card-heart">
                                 &hearts;
-                            </div>
-                            
-                        <div class="card-badge">
-                            <span class="card-discount">
-                                -30%
-                            </span>
-                            
-                        </div>
-                    </div>
-                    <div class="card-description">
-                        <h6 class="brand">Guess</h6>
-                        <h3 class="name-product">ROSES TEE  </h3>
-                        <h5 class="price-product">20,99 &euro; <span class="price-old">29,99 &euro;</span></h5>
-                    </div>
-                    </div>
-
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                            <div class="card-photo">
-                                <div class="card-overlay">
-                                    <img src="./img/3.webp" alt="">
-                                    <div class="overlay">
-                                        <img class="change-photo" src="./img/3b.webp" alt="">
-                                    </div>
-                                </div>
-                                <div class="card-heart">
+                                <div class="overlay-heart">
                                     &hearts;
                                 </div>
-                                
+                            </div>
+                        
                             <div class="card-badge">
                                 <span class="card-discount">
                                     -30%
@@ -117,25 +95,59 @@
                             </div>
                         </div>
                         <div class="card-description">
-                            <h6 class="brand">Come zucchero filato</h6>
-                        <h3 class="name-product">   VOGLIA DI COLORI PASTELLO</h3>
-                            <h5 class="price-product">129,99 &euro; <span class="price-old">184,99 &euro;</span></h5>
+                            <h6 class="brand">Guess</h6>
+                            <h3 class="name-product">ROSES TEE  </h3>
+                            <h5 class="price-product">20,99 &euro; <span class="price-old">29,99 &euro;</span></h5>
                         </div>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-photo">
+                            <div class="card-overlay">
+                                <img src="./img/3.webp" alt="">
+                                <div class="overlay">
+                                    <img src="./img/3b.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="card-heart">
+                                &hearts;
+                                <div class="overlay-heart">
+                                    &hearts;
+                                </div>
+                            </div>
+                            
+                            <div class="card-badge">
+                                <span class="card-discount">
+                                    -30%
+                                </span>
+                            </div>    
+                            
+                            </div>
+                            <div class="card-description">
+                                <h6 class="brand">Come zucchero filato</h6>
+                                <h3 class="name-product">   VOGLIA DI COLORI PASTELLO</h3>
+                                <h5 class="price-product">129,99 &euro; <span class="price-old">184,99 &euro;</span></h5>
+                            </div>
                     </div>
                 
                 </div>
                 <div class="col-4">
                     <div class="card">
                         <div class="card-photo">
-                                <div class="card-overlay">
-                                    <img src="./img/4.webp" alt="">
-                                    <div class="overlay">
-                                        <img class="change-photo" src="./img/4b.webp" alt="">
-                                    </div>
+                            <div class="card-overlay">
+                                <img src="./img/4.webp" alt="">
+                                <div class="overlay">
+                                    <img src="./img/4b.webp" alt="">
                                 </div>
-                                <div class="card-heart">
+                            </div>
+                            <div class="card-heart">
+                                &hearts;
+                                <div class="overlay-heart">
                                     &hearts;
                                 </div>
+                            </div>
                                 
                             <div class="card-badge">
                                 <span class="card-discount">
@@ -159,12 +171,15 @@
                             <div class="card-overlay">
                                 <img src="./img/5.webp" alt="">
                                 <div class="overlay">
-                                    <img class="change-photo" src="./img/5b.webp" alt="">
+                                    <img src="./img/5b.webp" alt="">
                                 </div>
                             </div>
-                                <div class="card-heart">
+                            <div class="card-heart">
+                                &hearts;
+                                <div class="overlay-heart">
                                     &hearts;
                                 </div>
+                            </div>
                                 
                             
                         </div>
@@ -181,12 +196,15 @@
                             <div class="card-overlay">
                                 <img src="./img/6.webp" alt="">
                                 <div class="overlay">
-                                    <img class="change-photo" src="./img/6b.webp" alt="">
+                                    <img src="./img/6b.webp" alt="">
                                 </div>
                             </div>
-                                <div class="card-heart">
+                            <div class="card-heart">
+                                &hearts;
+                                <div class="overlay-heart">
                                     &hearts;
                                 </div>
+                            </div>
                                 
                             <div class="card-badge">
                                 
@@ -211,19 +229,20 @@
             <div class="row">
                 <div class="col footer-info">
                     <h3>Booleando s.r.l.</h3>
-                    <a href="#">Info Legali</a>
-                    <a href="#">Info Privacy</a>
-                    <a href="#">Diritto di recesso</a>
-                
+                    <ul class="flex gap-5">
+                        <li><a href="#">Info Legali</a></li>
+                        <li><a href="#">Info Privacy</a></li>
+                        <li><a href="#">Diritto di recesso</a></li>
+                    </ul>
                 </div>
                 <div class="col">
-                    <h4>Trovaci anche su</h4>
-                    <div class="footer-social">
-                        <img src="./img/twitter.png" alt="" class="footer-icon">
-                        <img src="./img/instagram.png" alt="" class="footer-icon">
-                        <img src="./img/facebook.png" alt="" class="footer-icon">
-                        <img src="./img/youtube.png" alt="" class="footer-icon">
-                    </div>
+                    <h4>Trovaci anche su:</h4>
+                    <ul class="footer-social flex gap-5">
+                        <li><img src="./img/twitter.png" alt="" class="footer-icon"></li>
+                        <li><img src="./img/instagram.png" alt="" class="footer-icon"></li>
+                        <li><img src="./img/facebook.png" alt="" class="footer-icon"></li>
+                        <li><img src="./img/youtube.png" alt="" class="footer-icon"></li>
+                    </ul>
                 </div>
             </div>
         </div>

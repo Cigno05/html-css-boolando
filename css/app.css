@@ -81,6 +81,16 @@ body {
     width: 100%;
 }
 
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
 
 /* STYLE */
 
@@ -114,6 +124,8 @@ header {
     max-height: 20px;
     
 }
+
+
 
 /* Main */
 
@@ -191,7 +203,11 @@ main {
 	top: 0;
 	left: 0;
 	opacity: 0;
-    
+    padding: 10px;
+    width: 100%;
+	height: 100%;
+    /* transition: ; */
+    /* non mi fa selezionare opacity */
 	
 }
 
@@ -202,10 +218,18 @@ main {
 }
 
 
-.change-photo {
-	padding: 10px;
-    width: 100%;
-	height: 100%;
+
+.card-heart .overlay-heart {
+    
+    position: absolute;
+	top: 5px;
+    right: 10px;
+	opacity: 0;
+}
+
+.card-heart:hover .overlay-heart {
+    opacity: 1;
+    color: red;
 }
 
 /* FOOTER */
@@ -218,14 +242,17 @@ footer {
 
 
 .footer-social {
-    display: flex;
-    gap: 8px;
+    
     height: 15px;
 }
 
 .footer-nav .row {
     justify-content: space-between;
     padding: 0 10px;
+}
+
+.footer-icon {
+    height: 24px;
 }
 
 
